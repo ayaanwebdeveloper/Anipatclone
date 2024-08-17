@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.hh{
+    display: flex;
+    position: fixed;
+    background-color: white;
+   width: 100%;
+   border-bottom: 2px solid#dadada;
+   margin-top: -1vh;
+   margin-left: -1vh;
+   margin-right: -20vh;
+   align-items: center;
+   height: 15vh;
+   box-shadow: 0 0 10px #dadada;
+   z-index: 2;
+   
+
+}
+.nn{
+    width: 40%;
+    display: flex; 
+
+}
+.logo{
+    margin-left: 20vh;
+    cursor: pointer;    
+}
+.u1{
+    display: flex;
+    gap: 5vh;
+    margin-left: 80vh;
+    justify-content: end;
+}
+.i1{
+    list-style: none;
+    position: relative;
+}
+.i1:hover{
+    color: #F22920;
+    cursor: pointer;
+}
+.i1::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #F22920;
+    position: absolute;
+    transition: width 0.4s;
+    left: 0;
+    bottom: 1px;
+}
+.i1:hover::after{
+    content: "";
+    width: 100%;
+}
+.b{
+width: 211vh;
+background: linear-gradient(to right,#EC2818,#FD6317);
+height: 85vh;
+border-bottom-left-radius: 20%;
+border-bottom-right-radius: 20%;
+}
+.te{
+    width: 40%;
+ 
+}
+.ht{
+    font-size: 80px;
+    position: absolute;
+    color: white;
+    animation-name: t;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    top: 30vh;
+    left: 20vh;
+}
+#ba {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.lor{
+    color: white;
+    font-weight: bold;
+    top: 60vh;
+    left: 20vh;
+    position: absolute;
+}
+.lor::selection{
+    background-color: #444444;
+}
+.ri{
+    margin-left:35vh;
+    width: 40%;
+    overflow: hidden;
+}
+.iw{
+    width: 100vh;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    animation-name: dog;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.cu{
+    width: 15%;
+    height: 8vh;
+    font-weight: bold;
+    font-size: 28;
+    position: absolute;
+    top: 450px;
+    left: -15%;
+    background-color: white;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid white;
+    animation-name: ca;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+}
+.cu:hover{
+    background-color: blue;
+    border: 2px solid #FF3500;
+    cursor: pointer;
+    color: white;
+}
+.sf{
+ 
+    box-sizing: border-box;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+
+}
+.para{
+    text-align: center;
+    position: absolute;
+    left: -15%;
+    color: #191d3496;
+}
+.ser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+    height: 100%;
+}
+.card{
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border: 2px solid #FD6317;
+    height: 400px;
+    transition: box-shadow 0.4s border 0.5s;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+}
+.lid{
+    color: #191d3496;
+}
+.fto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ilm{
+    margin-top: 30px;
+    
+}
+.ayan{
+    position: absolute;
+    left: 780px;
+    top: 1400px;
+}
+.lar{
+    margin-top: 90px;
+}
+.aya{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    background: linear-gradient(to right,#EC2818,#FD6317);
+    width: 50%;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.about:hover{
+    background: linear-gradient(to right,#ec2a18e0,#fd6417d5);
+    cursor: pointer;
+    
+}
+.doc{
+    text-align: center;
+    font-size: 36px;
+    animation-duration: 5s;
+animation-fill-mode: forwards;
+    animation-name: q;
+    animation-iteration-count: 3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.sar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    height: 100%;
+}
+
+.carda{
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0px 0px 10px gray;
+    border: none;
+    height: 250px;
+    transition: box-shadow 0.4s border 0.5s margin 0.5;
+}
+.carda:hover{
+    margin-top: -10px;
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+    border: none;
+}
+.tar{
+    color: #444444;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.rew{
+    width: 80%;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 250px;
+    display: flex;
+align-items: center;
+justify-content: center;
+transition: margin 0.5s;
+}
+.rew:hover{
+    margin-top: 10px;
+}
+.pri{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+/* .af{
+    margin-top: 50px;
+    margin-left: 30px;
+} */
+
+.fah{
+    margin-left:400px;
+margin-top: 50px;
+text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ot{
+    font-size: 100px;
+    color: #191D34;
+}
+.loop{
+    color: #444444;
+}
+.cc{
+    margin-left: 20px;
+    position: relative;
+}
+.cc:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+.glass{
+    margin-top: 60px;
+}
+.foter{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.048);
+    height:50% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.pa{
+    font-size: 26px;
+    cursor: pointer;
+
+}
+.pa:hover{
+    color: #EC2818;
+}
+@keyframes q {
+    to{
+     background-color: black;
+     color: white;
+    }
+    
+}
+
+@keyframes t{
+    to{
+      color: navy;
+      top: 150px;
+  
+      
+    }
+}
+@keyframes dog {
+    from{
+        bottom: 500px;
+    }
+    to{
+        top: 10px;
+        bottom: 500px;
+
+    }
+
+    
+}
+@keyframes ca{
+    to{
+        left: 10%;
+    }
+}
